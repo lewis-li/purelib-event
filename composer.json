@@ -2,6 +2,7 @@
     "name": "purelib/event",
     "description": "Event",
     "require":{
+        "purelib/base": "dev-master",
         "zendframework/zend-stdlib": "2.3.*@dev"
     },
     
