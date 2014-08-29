@@ -17,7 +17,7 @@ class EventManager {
         }
         
         if (! isset ( $this->events [$eventName] )) {
-            $this->events [$eventName] = new \Zend\Stdlib\PriorityQueue ();
+            $this->events [$eventName] = new \PureLib\Base\PriorityQueue ();
         }
         $listener = new \PureLib\Base\CallbackHandler ( $listener, array (
                 'eventName' => $eventName,
